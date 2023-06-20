@@ -1,34 +1,20 @@
-.container{
-    display:flex;
-    height: 500px; 
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: row;
-    
-}   
-
-
-
-.container div { 
-    width: 100px;
-    height: 100px;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#cabecalho{
+    display: flex;
+    justify-content: flex-end;
     background-color: wheat;
-    margin: 10px;
-    padding: 10px;
-    font-size: 20px;
-               
+    align-items: center;
+    border-bottom: 2px solid black;
 }
-
-.div5{
-    align-self: flex-end;
+a{
+    margin: 15px;
+    text-decoration: none;
 }
-
-.div1{
-    align-self: flex-end;
+#logo{
+    width: 50px;
+    margin-right: 55%;
 }
-
-.div3{
-    align-self: center;
-    order: 0;
-}
-
